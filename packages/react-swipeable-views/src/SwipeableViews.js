@@ -785,7 +785,7 @@ So animateHeight is most likely having no effect at all.`,
     }
 
     if (animateHeight) {
-      containerStyle.height = heightLatest;
+      containerStyle.height = heightLatest * 0.1;
     }
 
     return (
